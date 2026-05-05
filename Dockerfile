@@ -34,7 +34,7 @@ RUN chmod 0755 /entrypoint.sh
 
 LABEL org.opencontainers.image.title="bw"
 LABEL org.opencontainers.image.description="Bitwarden CLI server image"
-LABEL org.opencontainers.image.source="https://gitlab.fluit-online.nl"
+LABEL org.opencontainers.image.source="https://github.com"
 LABEL org.opencontainers.image.revision="${VCS_REF}"
 LABEL org.opencontainers.image.created="${BUILD_DATE}"
 

@@ -25,3 +25,9 @@ Override the CLI version at build time:
 ```sh
 docker build --build-arg BW_CLI_VERSION=2023.1.0 -t bw .
 ```
+
+## CI
+
+GitHub Actions builds and pushes the image to GitHub Container Registry on pushes to `main` and on Git tags.
+
+The image is published as `ghcr.io/<owner>/<repo>`.
