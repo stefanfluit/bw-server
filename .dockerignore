@@ -1,0 +1,6 @@
+.git
+.agents
+.codex
+.gitlab-ci.yml
+image-digest.txt
+image-name-with-digest.txt
